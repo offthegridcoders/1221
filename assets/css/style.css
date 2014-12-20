@@ -490,6 +490,10 @@ section h3.section-subheading {
 	position: relative;
 }
 
+.section-single-page-head {
+	padding: 120px 0 70px;
+}
+
 .section-inner-small:after {
 	content: '';
 	border: solid 15px #f6f6f6;
