@@ -453,6 +453,13 @@ section {
 	padding: 100px 0;
 }
 
+.resources-section {
+	padding: 140px 0;
+}
+
+.resources-section .col-md-4 {
+	float: none;
+}
 section h2.section-heading {
 	margin-top:0;
 	margin-bottom:15px;
@@ -726,6 +733,10 @@ textarea#comments {
 
 .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i, .direction-aware .portfolio-hover-content i {
 	margin-top:-12px;
+}
+
+.direction-aware {
+	text-align: center;
 }
 
 .portfolio-hover-content i.pe-7s-close {
@@ -1207,7 +1218,8 @@ body {
 }
 
 .direction-aware li.da-item {
-	float: left;
+	display: inline-block;
+	width: auto;
 	position: relative;
 	margin-bottom: 30px;
 	border-bottom: 5px solid transparent;
@@ -2377,6 +2389,12 @@ img.mfp-img {
 	#portfolio .portfolio-item {
 		margin:0 0 30px
 	}
+
+	.portfolio-item h3 {
+		text-align: center;
+		text-transform: none;
+	}
+
 	header .intro-text {
 		padding-top:320px;
 		padding-bottom:200px

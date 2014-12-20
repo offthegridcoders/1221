@@ -40,7 +40,7 @@
 <script type="text/javascript">
 
     $(window).load(function() {
-        if (window.pageYOffset > 0) {
+        if (window.pageYOffset > window.innerHeight) {
             setTimeout(function () {
                 $(".navbar").addClass("navbar-shrink").css( "visibility", "visible" );;
             }, 1000);
@@ -86,7 +86,7 @@
 </div>
 
 <!-- Navigation -->
-<nav class="navbar navbar-default navbar-shrink navbar-fixed-top bounceInDown" data-wow-delay="2s">
+<nav class="navbar navbar-default navbar-fixed-top bounceInDown" data-wow-delay="2s">
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header page-scroll">

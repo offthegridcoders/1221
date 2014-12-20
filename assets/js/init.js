@@ -179,12 +179,6 @@ $(window).load(function() {
 
     if(portfolio_selectors!='undefined'){
         var portfolio = $('.portfolio-items');
-        portfolio.imagesLoaded( function(){
-             portfolio.isotope({
-                itemSelector : 'li',
-                layoutMode : 'fitRows'
-            });
-        });
 
         portfolio_selectors.on('click', function(e){
             e.preventDefault();
