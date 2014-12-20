@@ -473,6 +473,10 @@ section h3.section-subheading {
 	font-size: 24px;
 }
 
+.legal-wrapper {
+	padding: 20px;
+}
+
 .legal-wrapper h2 {
 	font-size: 18px;
 	font-weight: 400;
