@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8">
+<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="shortcut icon" href="../assets/img/ico/favicon.ico">
+<link rel="apple-touch-icon" sizes="144x144" href="assets/img/ico/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="114x114" href="assets/img/ico/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="72x72" href="assets/img/ico/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" href="assets/img/ico/apple-touch-icon-57x57.png">
+
+<title>1221 Capital LLC</title>
+
+<!-- Bootstrap Core CSS -->
+<link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+<link href="../assets/css/animate.css" rel="stylesheet">
+
+<!-- Custom CSS -->
+<link href="../assets/css/style.css" rel="stylesheet">
+
+<!-- Custom Fonts -->
+<link href="../assets/font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="../assets/css/pe-icons.css" rel="stylesheet">
+
+<!-- jQuery -->
+<script src="../assets/js/jquery.js"></script>
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<script type="text/javascript">
+    $(document).ready(function(){
+       'use strict';
+    jQuery('#headerwrap').backstretch([
+      "../assets/img/headers/header01.jpg",
+      "../assets/img/headers/header03.jpg"
+    ], {duration: 8000, fade: 500});
+
+    $("#mapwrapper").gMap({ controls: false,
+        scrollwheel: false,
+        markers: [{     
+            latitude:40.7566,
+            longitude: -73.9863,
+        icon: { image: "../assets/img/marker.png",
+            iconsize: [44,44],
+            iconanchor: [12,46],
+            infowindowanchor: [12, 0] } }],
+        icon: { 
+            image: "../assets/img/marker.png", 
+            iconsize: [26, 46],
+            iconanchor: [12, 46],
+            infowindowanchor: [12, 0] },
+        latitude:40.7566,
+        longitude: -73.9863,
+        zoom: 14 });
+});
+</script>
+
+</head>
+
+<body id="page-top" class="index">
+
+<div class="preloader">
+    <div class="preloader-img">
+      <img src="../assets/img/loading-bars.svg" width="100" alt="Loading icon" />
+    </div>
+</div>
+
+<!-- Navigation -->
+<nav class="navbar navbar-default navbar-shrink navbar-fixed-top">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="../index.html#page-top">1221 Capital LLC</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a href="../index.html#about">About Us</a>
+                </li>
+                <li class="dropdown">
+                    <a href="../index.html#investment">Investment Approach</a>
+                </li>
+                <li class="dropdown">
+                    <a href="../index.html#company">The Company</a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" >Resources</a>
+                </li>
+                <li class="dropdown">
+                    <a href="../index.html#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+
+<!-- disclaimer section -->
+<section id="subhead-section">
+    <div class="section-inner-disclaimer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center wow fadeInDown">
+                    <p>The risk of loss is present in all investments, including Managed Futures. Our goal is to manage this risk by implementing proper money management techniques. Futures and options trading involves substantial risk of loss, therefore only risk funds should be used in such trading. Futures and options trading may not be suitable for all investors and investors should carefully consider their financial condition in deciding whether to trade or not to trade. Certain presentations make reference to several indices but only CTAs submitting their performance to these indices are included in that particular index. The performance of the index itself and the actual rates of return for an individual program may significantly differ and be more volatile than that particular index. Indexes themselves are not investable. Studies conducted of Managed Futures as a whole may not be indicative of the performance of any individual CTA. While Managed Futures can help enhance returns and reduce risk, they can also do just the opposite and in fact result in further losses in a portfolio. Past performance is not necessarily indicative of future performance.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="divider-wrapper-dark">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <span class="copyright wow fadeInUp">©2014 1221 Capital</span>
+                <p class="faded-message">Website <a href="#">Terms of Use &amp; Legal Disclaimer</a> | <a href="#">Privacy Policy</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="../assets/js/bootstrap.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="../assets/js/plugins-lite.js"></script>
+
+<!-- Plugins -->
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script src="../assets/js/jqBootstrapValidation.js"></script>
+<script src="../assets/js/contact_me.js"></script>
+
+<!-- Custom JavaScript -->
+<script src="../assets/js/init.js"></script>
+
+</body>
+
+</html>

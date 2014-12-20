@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8">
+<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="shortcut icon" href="assets/img/ico/favicon.ico">
+<link rel="apple-touch-icon" sizes="144x144" href="assets/img/ico/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="114x114" href="assets/img/ico/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="72x72" href="assets/img/ico/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" href="assets/img/ico/apple-touch-icon-57x57.png">
+
+<title>1221 Capital LLC</title>
+
+<!-- Bootstrap Core CSS -->
+<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+<link href="assets/css/animate.css" rel="stylesheet">
+
+<!-- Custom CSS -->
+<link href="assets/css/style.css" rel="stylesheet">
+
+<!-- Custom Fonts -->
+<link href="assets/font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="assets/css/pe-icons.css" rel="stylesheet">
+
+<!-- jQuery -->
+<script src="assets/js/jquery.js"></script>
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<script type="text/javascript">
+
+    $(window).load(function() {
+        if (window.pageYOffset > 0) {
+            setTimeout(function () {
+                $(".navbar").addClass("navbar-shrink").css( "visibility", "visible" );;
+            }, 1000);
+        };
+    });
+
+    $(document).ready(function(){
+       'use strict';
+
+    jQuery('#headerwrap').backstretch([
+      "assets/img/headers/header01.jpg",
+      "assets/img/headers/header03.jpg"
+    ], {duration: 8000, fade: 500});
+
+    $("#mapwrapper").gMap({ controls: false,
+        scrollwheel: false,
+        markers: [{     
+            latitude:40.7566,
+            longitude: -73.9863,
+        icon: { image: "assets/img/marker.png",
+            iconsize: [44,44],
+            iconanchor: [12,46],
+            infowindowanchor: [12, 0] } }],
+        icon: { 
+            image: "assets/img/marker.png", 
+            iconsize: [26, 46],
+            iconanchor: [12, 46],
+            infowindowanchor: [12, 0] },
+        latitude:40.7566,
+        longitude: -73.9863,
+        zoom: 14 });
+});
+</script>
+
+</head>
+
+<body id="page-top" class="index">
+
+<div class="preloader">
+    <div class="preloader-img">
+    	<img src="assets/img/loading-bars.svg" width="100" alt="Loading icon" />
+    </div>
+</div>
+
+<!-- Navigation -->
+<nav class="navbar navbar-default navbar-shrink navbar-fixed-top bounceInDown" data-wow-delay="2s">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#page-top">1221 Capital LLC</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a href="#about" data-hover="dropdown" data-toggle="dropdown">About Us</a>
+                </li>
+                <li class="dropdown">
+                    <a href="#investment" data-hover="dropdown" data-toggle="dropdown">Investment Approach</a>
+                </li>
+                <li class="dropdown">
+                    <a href="#company" data-hover="dropdown" data-toggle="dropdown">The Company</a>
+                </li>
+                <li class="dropdown">
+                    <a href="resources/" >Resources</a>
+                </li>
+                <li class="dropdown">
+                    <a href="#contact" data-hover="dropdown" data-toggle="dropdown">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+
+<!-- Header -->
+<header id="headerwrap" class="fullheight">
+    <div class="container">
+        <div class="intro-text">
+            <div class="intro-lead-in wow bounceInDown" data-wow-delay="0.5s">See how managed futures can <span class="wodry">Enhance|Balance|Grow</span> Your Portfolio</div>
+            <div class="intro-heading wow bounceInUp" data-wow-delay="1s">1221 <span class="thin">Capital LLC</span></div>
+            <a href="#about-us" class="page-scroll btn btn-xl btn-negative  wow bounceInDown" data-wow-delay="2s">Watch Video <i class="fa fa-angle-down fa-2x"></i></a>
+        </div>
+    </div>
+</header>
+
+<!-- About Section -->
+<section id="about">
+    <div class="section-inner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center wow fadeInDown">
+                    <h2 class="section-heading"><strong>About</strong> Us</h2>
+                    <h3 class="section-subheading text-muted">1221 Capital's aim is to be exceptional stewards of capital and be the bridge that increases the financial independence of investors everywhere.</h3>
+                </div>
+            </div>
+            <div class="row gap">
+                <div class="col-md-4 wow fadeInLeft">
+                    <img src="assets/img/devices_responsive4.jpg" class="img-responsive" />
+                </div>
+                <div class="col-md-8 wow fadeInRight">
+                    <p>1221 Capital LLC is a Boston based investment firm registered with the Commodity Futures Trading Commission and member of the National Futures Association. As Commodity Trading Advisors, we offer individual investors as well as institutional investors the opportunity to diversify their portfolio in an asset class called Managed Futures. 1221 Capital investment programs are offered through Separately Managed Accounts. We happily work individually with investors or alongside their current team of investment advisors. The goal is to identify an investment program which will best support the clients current portfolio and investment goals as a diversification tool. When working with 1221 Capital, clients can expect prompt professional service from a dedicated account manager who will take all the time necessary for the client to have a thorough understanding of their account and investment process.</p>
+
+                    <p>At 1221 Capital LLC, we are capitalists and view wealth creation a noble pursuit. Our investment programs offer the incredible opportunities provided in the futures markets as well as a liquid diversification solution.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- SUB header section -->
+<section id="subhead-section">
+    <div class="section-inner-small">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center wow fadeInDown">
+                    <h3 class="section-subheading-small text-muted"><span>1221 Capital LLC</span> is a boutique investment firm specializing in trading commodity and financial futures. 1221 Capital offers investment programs designed to deliver consistent, positive results regardless of stock market direction, and put the odds of success firmly on the side of the investor.</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Services Section -->
+<section id="services">
+    <div class="section-inner">
+        <div class="container">
+            <div class="row wow fadeInUp">
+                <div class="col-md-4 service-item">
+                    <div class="row">
+                        <div class="col-md-2 col-sm-2 col-xs-2 service-icon">
+                            <i class="pe-7s-graph1 fa-4x"></i>
+                        </div>
+                        <div class="col-md-10 col-sm-10 col-xs-10 pull-right">
+                            <h4 class="service-heading">Growth</h4>
+                            <p class="text-muted">Managed Futures programs have the ability to grow throughout a variety of economic conditions and historically have shown a low correlation to traditional asset classes.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 service-item">
+                    <div class="row">
+                        <div class="col-md-2 col-sm-2 col-xs-2 service-icon">
+                            <i class="pe-7s-glasses fa-4x"></i>
+                        </div>
+                        <div class="col-md-10 col-sm-10 col-xs-10 pull-right">
+                            <h4 class="service-heading">Focus</h4>
+                            <p class="text-muted">At 1221 Capital, our sole purpose is managed futures. This focus has made us experts in this area, and able to introduce exceptional opportunities to our clients.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 service-item">
+                    <div class="row">
+                        <div class="col-md-2 col-sm-2 col-xs-2 service-icon">
+                            <i class="pe-7s-graph2 fa-4x"></i>
+                        </div>
+                        <div class="col-md-10 col-sm-10 col-xs-10 pull-right">
+                            <h4 class="service-heading">Strategy</h4>
+                            <p class="text-muted">1221 Capital’s strategies utilize mathematical techniques with an emphasis on risk versus reward to increase the probability of success for the investor.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Investments Section -->
+<section id="investment">
+    <div class="section-inner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center wow fadeInDown">
+                    <h2 class="section-heading"><strong>Investment</strong> Approach</h2>
+                    <h3 class="section-subheading text-muted">1221 Capital Managed Account programs have the ability to profit in both rising as well as declining markets.</h3>
+                </div>
+            </div>
+            <div class="row gap">
+                <div class="col-md-4 wow fadeInLeft">
+                    <img src="assets/img/devices_responsive.png" class="img-responsive" />
+                </div>
+                <div class="col-md-8 wow fadeInRight">
+                    <h3>Trend Following Program</h3>
+                    <ul>
+                        <li>Seeks to be buyers when a trend is up and sellers when a trend is down</li>
+                        <li>Use math to increase the odds of success</li>
+                        <li>Never guess or hope about market direction, but rather let the markets themselves tell us where they want to go</li>
+                        <li>Dynamic Portfolio Management:  Regularly analyze price trends and make appropriate portfolio changes to best position client for success</li>
+                        <li>Sees no need to be fully invested at all times, seeks to only put money to work when most advantageous</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row gap">
+                <div class="col-md-4 wow fadeInLeft">
+                    <img src="assets/img/devices_responsive.png" class="img-responsive" />
+                </div>
+                <div class="col-md-8 wow fadeInRight">
+                    <h3>Equity Index Trading Program</h3>
+                    <ul>
+                        <li>Invests in US Equity Index futures</li>
+                        <li>Seeks market timing using technical analysis</li>
+                        <li>Investment program will be long, short or cash depending on market outlook</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row gap">
+                <div class="col-md-4 wow fadeInLeft">
+                    <img src="assets/img/devices_responsive.png" class="img-responsive" />
+                </div>
+                <div class="col-md-8 wow fadeInRight">
+                    <h3>Option Selling Program</h3>
+                    <ul>
+                        <li>Seeks to create a cash flowing asset not dependent upon price appreciation for success</li>
+                        <li>Collect option premium for the risk taken</li>
+                        <li>Capitalize on the time decay aspect inherent in option pricing</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Team Section -->
+<section id="company" class="divider-wrapper opaqued" data-parallax="scroll" data-image-src="assets/img/headers/header02.jpg" data-speed="0.7">
+    <div class="section-inner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center wow fadeInDown">
+                    <h2 class="section-heading">The <strong>Company</strong></h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                </div>
+            </div>
+            <div class="row wow fadeInUp">
+                <div class="col-md-3">
+                    <div class="team-member">
+                        <div class="team-card">
+                            <img src="assets/img/team/team1.jpg" class="img-responsive" alt="">
+                            <ul class="list-inline social-buttons">
+                                <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
+                                </li>
+                                <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a>
+                                </li>
+                                <li><a class="google" href="#"><i class="fa fa-google-plus"></i></a>
+                                </li>
+                                <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <h4>Joseph F. Siracusa</h4>
+                        <p class="text-muted">President</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="team-member">
+                        <div class="team-card">
+                            <img src="assets/img/team/team2.jpg" class="img-responsive" alt="">
+                            <ul class="list-inline social-buttons">
+                                <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
+                                </li>
+                                <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a>
+                                </li>
+                                <li><a class="google" href="#"><i class="fa fa-google-plus"></i></a>
+                                </li>
+                                <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <h4>John Doe</h4>
+                        <p class="text-muted">Lorem Ipsum Master</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="team-member">
+                        <div class="team-card">
+                            <img src="assets/img/team/team2.jpg" class="img-responsive" alt="">
+                            <ul class="list-inline social-buttons">
+                                <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
+                                </li>
+                                <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a>
+                                </li>
+                                <li><a class="google" href="#"><i class="fa fa-google-plus"></i></a>
+                                </li>
+                                <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <h4>John Doe</h4>
+                        <p class="text-muted">Lorem Ipsum Master</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="team-member">
+                        <div class="team-card">
+                            <img src="assets/img/team/team2.jpg" class="img-responsive" alt="">
+                            <ul class="list-inline social-buttons">
+                                <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
+                                </li>
+                                <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a>
+                                </li>
+                                <li><a class="google" href="#"><i class="fa fa-google-plus"></i></a>
+                                </li>
+                                <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <h4>John Doe</h4>
+                        <p class="text-muted">Lorem Ipsum Master</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+   
+<section id="mapwrapper">
+</section>
+
+<section id="contact">
+    <div class="section-inner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center wow fadeInDown">
+                    <h2 class="section-heading"><strong>Contact</strong> Us</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div id="message"></div>
+                    <form method="post" action="sendemail.php" id="contactform">
+                        <p><input type="text" class="form-control" name="name" placeholder="Your Name *" id="name" required data-validation-required-message="Please enter your name." /></p>
+                        <p><input type="text" class="form-control" name="email" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address." /></p>
+                        <p ><input type="text" class="form-control" name="website" placeholder="Your URL *" id="website" required data-validation-required-message="Please enter your web address." /></p>
+                        <p><textarea name="comments" class="form-control" id="comments" placeholder="Your Message *" required data-validation-required-message="Please enter a message."></textarea></p>
+                        <input class="btn btn-outlined btn-primary pull-right" type="submit" name="submit" value="Submit" />
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <p>Managed futures are an exciting and efficient way to take advantage of the many opportunities in the commodity and financial futures market. If you have any further questions or are just as excited about these opportunities as we are and are ready to open an account, please feel free to call or email our office at anytime. We thoroughly enjoy talking about the markets and look forward to hearing from you.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- disclaimer section -->
+<section id="subhead-section">
+    <div class="section-inner-disclaimer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center wow fadeInDown">
+                    <p>The risk of loss is present in all investments, including Managed Futures. Our goal is to manage this risk by implementing proper money management techniques. Futures and options trading involves substantial risk of loss, therefore only risk funds should be used in such trading. Futures and options trading may not be suitable for all investors and investors should carefully consider their financial condition in deciding whether to trade or not to trade. Certain presentations make reference to several indices but only CTAs submitting their performance to these indices are included in that particular index. The performance of the index itself and the actual rates of return for an individual program may significantly differ and be more volatile than that particular index. Indexes themselves are not investable. Studies conducted of Managed Futures as a whole may not be indicative of the performance of any individual CTA. While Managed Futures can help enhance returns and reduce risk, they can also do just the opposite and in fact result in further losses in a portfolio. Past performance is not necessarily indicative of future performance.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="divider-wrapper-dark">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <span class="copyright wow fadeInUp">©2014 1221 Capital</span>
+                <p class="faded-message">Website <a href="#">Terms of Use &amp; Legal Disclaimer</a> | <a href="#">Privacy Policy</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="assets/js/bootstrap.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="assets/js/plugins.js"></script>
+
+<!-- Plugins -->
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script src="assets/js/jqBootstrapValidation.js"></script>
+<script src="assets/js/contact_me.js"></script>
+
+<!-- Custom JavaScript -->
+<script src="assets/js/init.js"></script>
+
+<script>
+    $('nav ul').find('a').click(function(){
+        var $href = $(this).attr('href');
+        var $anchor = $($href).offset();
+        $('body').animate({ scrollTop: $anchor.top });
+        return false;
+    });
+</script>
+</body>
+
+</html>
