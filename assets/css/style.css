@@ -230,6 +230,17 @@ h1,h2,h3,h4,h5,h6 {
 	background-color:#fff
 }
 
+@media(max-width: 550px) {
+	.btn-xl {
+		padding: 0;
+	}
+
+	.header .intro-text .page-scroll {
+		font-size: 16px;
+	}
+	}
+}
+
 .btn-negative {
 	background-color: transparent;
 	border: 2px solid #fff;
@@ -423,7 +434,7 @@ header .intro-text .intro-heading {
 
 @media(max-width: 550px) {
 	header .intro-text .intro-heading {
-		font-size: 36px;
+		font-size: 32px;
 	}
 }
 
