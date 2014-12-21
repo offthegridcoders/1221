@@ -522,6 +522,10 @@ section h3.section-subheading {
 	background-color: #29BB2B;
 }
 
+.section-single-page-head h2 {
+	color: #fff;
+}
+
 .section-single-page-head:after {
 	content: '';
 	border: solid 15px #f6f6f6;
