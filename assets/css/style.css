@@ -232,7 +232,7 @@ h1,h2,h3,h4,h5,h6 {
 
 @media(max-width: 550px) {
 	.btn-xl {
-		padding: 0;
+		padding: 10px;
 	}
 
 	.header .intro-text .page-scroll {
