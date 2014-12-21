@@ -421,6 +421,12 @@ header .intro-text .intro-heading {
 	line-height: 58px;
 }
 
+@media(max-width: 550px) {
+	header .intro-text .intro-heading {
+		font-size: 36px;
+	}
+}
+
 header .intro-text .intro-note {
 	margin-bottom: 20px;
 }
