@@ -266,6 +266,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .navbar-brand {
 	font-family: 'Lato',"Helvetica Neue",Helvetica,Arial,sans-serif;
+	margin-top: 10px;
 }
 
 .navbar-default .navbar-brand:hover,.navbar-default .navbar-brand:focus,.navbar-default .navbar-brand:active,.navbar-default .navbar-brand.active {
