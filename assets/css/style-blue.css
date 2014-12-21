@@ -29,7 +29,7 @@ body {
 }
 
 .text-primary {
-  color:#29BB2B
+  color:#2971bb
 }
 
 p {
@@ -47,7 +47,7 @@ a,a:hover,a:focus,a:active,a.active {
 }
 
 a {
-  color:#29BB2B
+  color:#2971bb
 }
 
 a:hover,a:focus,a:active,a.active {
@@ -146,7 +146,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .form-control:focus {
-  border: 1px solid #29BB2B;
+  border: 1px solid #2971bb;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
@@ -155,12 +155,12 @@ h1,h2,h3,h4,h5,h6 {
 /*  BUTTONS
 /*-----------------------------------------------------------------------------------*/
 .btn-primary {
-  border-color: #29BB2B;
+  border-color: #2971bb;
   border-radius: 0;
   text-transform: uppercase;
   font-weight: 300;
   color: #fff;
-  background-color: #29BB2B;
+  background-color: #2971bb;
   padding: 10px 15px;
   -webkit-transition:all .5s ease-in-out;
   -moz-transition:all .5s ease-in-out;
@@ -170,9 +170,9 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .btn-primary:hover,.btn-primary:focus,.btn-primary:active,.btn-primary.active,.open .dropdown-toggle.btn-primary {
-  border-color: #29BB2B;
+  border-color: #2971bb;
   color: #fff;
-  background-color: #29BB2B;
+  background-color: #2971bb;
   -webkit-transition:all .5s ease-in-out;
   -moz-transition:all .5s ease-in-out;
   -o-transition:all .5s ease-in-out;
@@ -185,24 +185,24 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .btn-primary.disabled,.btn-primary[disabled],fieldset[disabled] .btn-primary,.btn-primary.disabled:hover,.btn-primary[disabled]:hover,fieldset[disabled] .btn-primary:hover,.btn-primary.disabled:focus,.btn-primary[disabled]:focus,fieldset[disabled] .btn-primary:focus,.btn-primary.disabled:active,.btn-primary[disabled]:active,fieldset[disabled] .btn-primary:active,.btn-primary.disabled.active,.btn-primary[disabled].active,fieldset[disabled] .btn-primary.active {
-  border-color:#29BB2B;
-  background-color:#29BB2B
+  border-color:#2971bb;
+  background-color:#2971bb
 }
 
 .btn-primary .badge {
-  color:#29BB2B;
+  color:#2971bb;
   background-color:#fff
 }
 
 .btn-xl {
   padding:20px 40px;
-  border-color:#29BB2B;
+  border-color:#2971bb;
   border-radius:0px;
   text-transform:uppercase;
   font-size:18px;
   font-weight:700;
   color:#fff;
-  background-color:#29BB2B;
+  background-color:#2971bb;
   -webkit-transition:all .5s ease-in-out;
   -moz-transition:all .5s ease-in-out;
   -o-transition:all .5s ease-in-out;
@@ -226,7 +226,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .btn-xl .badge {
-  color:#29BB2B;
+  color:#2971bb;
   background-color:#fff
 }
 
@@ -305,7 +305,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .navbar-default .nav li a:hover,.navbar-default .nav li a:focus {
   outline: 0;
-  color: #29BB2B;
+  color: #2971bb;
 }
 
 .navbar-default .navbar-nav>.active>a {
@@ -322,7 +322,7 @@ h1,h2,h3,h4,h5,h6 {
 .navbar-default.navbar-shrink .nav li.active>a {
   border-radius:0;
   color:#fff;
-  background-color:#29BB2B;
+  background-color:#2971bb;
   -webkit-transition:all .5s ease-in-out;
   -moz-transition:all .5s ease-in-out;
   -o-transition:all .5s ease-in-out;
@@ -336,7 +336,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .navbar-default .navbar-nav>.active>a:hover,.navbar-default .navbar-nav>.active>a:focus {
   color:#fff;
-  background-color:#29BB2B
+  background-color:#2971bb
 }
 
 .dropdown-menu {
@@ -352,7 +352,7 @@ h1,h2,h3,h4,h5,h6 {
   font-size: 12px;
   text-align: left;
   list-style: none;
-  background-color: #29BB2B;
+  background-color: #2971bb;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
   border: none;
@@ -459,7 +459,7 @@ header .intro-text .page-scroll i {
 }
 
 header .intro-text .wodry {
-  color: #29BB2B;
+  color: #2971bb;
   font-weight: 700;
 }
 
@@ -568,7 +568,7 @@ section h3.section-subheading-small span {
 }
 
 .service-icon {
-  border: 2px solid #29BB2B;
+  border: 2px solid #2971bb;
   text-align: center;
   position: relative;
   padding: 0;
@@ -584,7 +584,7 @@ section h3.section-subheading-small span {
   position: absolute;
   pointer-events: none;
   border-color: rgba(142, 204, 181, 0);
-  border-left-color: #29BB2B;
+  border-left-color: #2971bb;
   border-width: 8px;
   margin-top: -15px;
 }
@@ -592,7 +592,7 @@ section h3.section-subheading-small span {
 .service-icon .fa-4x {
   font-size: 40px;
   line-height: 60px;
-  color: #29BB2B;
+  color: #2971bb;
 }
 
 .service-item .pull-right {
@@ -708,7 +708,7 @@ textarea#comments {
   position: absolute;
   pointer-events: none;
   border-color: rgba(95, 183, 150, 0);
-  border-top-color: #29BB2B;
+  border-top-color: #2971bb;
   border-width: 10px;
   margin-left: -10px;
 }
@@ -798,7 +798,7 @@ textarea#comments {
 }
 
 .portfolio-item:hover .item-caption {
-  box-shadow: 0 5px 0px 0px #29BB2B;
+  box-shadow: 0 5px 0px 0px #2971bb;
   -webkit-transition:all .5s ease-in-out;
   -moz-transition:all .5s ease-in-out;
   -o-transition:all .5s ease-in-out;
@@ -903,7 +903,7 @@ textarea#comments {
   border-radius:100%;
   text-align:center;
   color:#fff;
-  background-color:#29BB2B
+  background-color:#2971bb
 }
 
 .timeline>li .timeline-image img {
@@ -1060,7 +1060,7 @@ textarea#comments {
 }
 
 .widget a:hover, .widget .media-heading a:hover {
-  color: #29BB2B;
+  color: #2971bb;
 }
 
 .widget-title {
@@ -1098,7 +1098,7 @@ textarea#comments {
 }
 
 .widget .media-heading a {
-  color: #29BB2B;
+  color: #2971bb;
   margin: -5px 0 -2px;
   position: relative;
   display: block;
@@ -1219,12 +1219,12 @@ ul.social-buttons li a.google:hover {
 
 ::-moz-selection {
   text-shadow:none;
-  background:#29BB2B
+  background:#2971bb
 }
 
 ::selection {
   text-shadow:none;
-  background:#29BB2B
+  background:#2971bb
 }
 
 img::selection {
@@ -1236,7 +1236,7 @@ img::-moz-selection {
 }
 
 body {
-  webkit-tap-highlight-color:#29BB2B
+  webkit-tap-highlight-color:#2971bb
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -1321,7 +1321,7 @@ body {
   position: absolute;
   top: auto;
   left: auto;
-  background-color: #29BB2B;
+  background-color: #2971bb;
   margin-bottom: 0;
   padding: 15px 20px;
   height: 95px;
@@ -1544,7 +1544,7 @@ body {
 /* Styling Next and Prev buttons */
 
 .owl-theme .owl-controls .owl-buttons div{
-  color: #29BB2B;
+  color: #2971bb;
   display: inline-block;
   zoom: 1;
   margin: 5px;
@@ -1564,7 +1564,7 @@ body {
 
 .owl-theme .owl-controls.clickable .owl-buttons div:hover{
   text-decoration: none;
-  color: #29BB2B;
+  color: #2971bb;
   background: transparent;
     -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
@@ -1591,7 +1591,7 @@ body {
   -moz-border-radius: 0px;
   border-radius: 0px;
   background: transparent;
-  border: 1px solid #29BB2B;
+  border: 1px solid #2971bb;
 }
 
 .owl-theme .owl-controls .owl-page.active span,
@@ -1651,7 +1651,7 @@ body {
 }
 
 .sharing-btns .btn-default:hover {
-  background-color: #29BB2B;
+  background-color: #2971bb;
 }
 
 .sharing-btns .btn-default {
@@ -1741,7 +1741,7 @@ i.surfingbird::before{
     position: absolute;
     top: 50%;
     width: 100%;
-    color: #29BB2B;
+    color: #2971bb;
     background: rgba(0, 0, 0, 0);
     font-size: 36px;
     font-weight: 300;
@@ -1768,7 +1768,7 @@ i.surfingbird::before{
     right: 15px;
     color: #fff;
   background-color: transparent;
-  color: #29BB2B;
+  color: #2971bb;
   border: none;
   opacity: 1;
   padding: 10px 17px;
@@ -1990,7 +1990,7 @@ button::-moz-focus-inner {
   color: #333333; }
 
 .mfp-image-holder .mfp-close, .mfp-iframe-holder .mfp-close {
-  color: #29BB2B;
+  color: #2971bb;
   right: -6px;
   text-align: right;
   padding-right: 6px;
@@ -2493,7 +2493,7 @@ img.mfp-img {
   }
 
   .navbar-default.navbar-shrink .nav li a:hover {
-    color: #29BB2B;
+    color: #2971bb;
   }
 
   .navbar-default.navbar-shrink .navbar-brand {
@@ -2503,7 +2503,7 @@ img.mfp-img {
 
   .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
     color: #fff;
-    background-color: #29BB2B;
+    background-color: #2971bb;
   }
 }
 
