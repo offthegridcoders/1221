@@ -52,9 +52,9 @@
     $(document).ready(function(){
        'use strict';
 
-    /*jQuery('#headerwrap').backstretch([
+    jQuery('#headerwrap').backstretch([
       "assets/img/headers/header01.jpg"
-    ], {duration: 8000, fade: 500});*/
+    ], {duration: 8000, fade: 500});
 
     $("#mapwrapper").gMap({ controls: false,
         scrollwheel: false,
@@ -79,6 +79,12 @@
 </head>
 
 <body id="page-top" class="index">
+
+<div class="preloader">
+    <div class="preloader-img">
+    	<img src="assets/img/loading-bars.svg" width="100" alt="Loading icon" />
+    </div>
+</div>
 
 <!-- Navigation -->
 <nav class="navbar navbar-default navbar-fixed-top bounceInDown" data-wow-delay="2s">
@@ -120,7 +126,7 @@
 </nav>
 
 <!-- Header -->
-<header id="headerwrap" class="fullheight" style="background: none;">
+<header id="headerwrap" class="fullheight">
     <div class="container">
         <div class="intro-text">
             <div class="intro-lead-in wow bounceInDown" data-wow-delay="0.5s">See how managed futures can <span class="wodry">Enhance Your Portfolio|Balance Your Portfolio|Grow Your Portfolio</span></div>
@@ -128,7 +134,6 @@
             <a href="404.html" class="page-scroll btn btn-xl btn-negative  wow bounceInDown" data-wow-delay="2s">Learn More <i class="fa fa-angle-down fa-2x"></i></a>
         </div>
     </div>
-    <div class="backstretch" style="left: 0px; top: 0px; overflow: hidden; margin: 0px; padding: 0px; z-index: -999998; position: absolute; width: 1440px; height: 828px;"><img src="assets/img/headers/header01.jpg" style="position: absolute; margin: 0px; padding: 0px; border: none; max-height: none; max-width: none; z-index: -999999; width: 1440px; height: 900.654545454545px; left: 0px; top: -36.3272727272727px;"></div>
 </header>
 
 <!-- About Section -->
