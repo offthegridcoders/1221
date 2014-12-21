@@ -2553,5 +2553,5 @@ img.mfp-img {
 	font-size: 18px;
 	font-weight: 400;
 	margin-left: -20px;
-	text-transform: uppercase;
+	text-transform: capitalize;
 }
