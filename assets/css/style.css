@@ -2543,7 +2543,7 @@ img.mfp-img {
 	display: inline-block;
 	vertical-align: top;
 	padding: 0;
-	margin: 0 20px;
+	margin: 0 20px 20px;
 }
 
 .faq-list:first-child {
