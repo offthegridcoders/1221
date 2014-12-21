@@ -269,6 +269,10 @@ h1,h2,h3,h4,h5,h6 {
 	font-family: 'Lato',"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+.navbar-brand span {
+	color: #2971bb;
+}
+
 .navbar-default .navbar-brand:hover,.navbar-default .navbar-brand:focus,.navbar-default .navbar-brand:active,.navbar-default .navbar-brand.active {
 	color: #202c2f;
 }
