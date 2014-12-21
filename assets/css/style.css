@@ -2539,4 +2539,11 @@ img.mfp-img {
 
 .faq-list {
 	display: inline-block;
+	vertical-align: top;
+}
+
+.faq-list li:first-child {
+	list-style: none;
+	font-size: 18px;
+	font-weight: 400;
 }
