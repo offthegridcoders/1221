@@ -2540,6 +2540,12 @@ img.mfp-img {
 .faq-list {
 	display: inline-block;
 	vertical-align: top;
+	padding: 0;
+	margin: 15px;
+}
+
+.faq-list:first-child {
+	margin-left: 0;
 }
 
 .faq-list li:first-child {
