@@ -2541,7 +2541,7 @@ img.mfp-img {
 	display: inline-block;
 	vertical-align: top;
 	padding: 0;
-	margin: 15px;
+	margin: 0 20px;
 }
 
 .faq-list:first-child {
@@ -2552,4 +2552,5 @@ img.mfp-img {
 	list-style: none;
 	font-size: 18px;
 	font-weight: 400;
+	margin-left: -20px;
 }
