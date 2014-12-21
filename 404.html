@@ -37,34 +37,6 @@
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
-
-<script type="text/javascript">
-    $(document).ready(function(){
-       'use strict';
-    jQuery('#headerwrap').backstretch([
-      "assets/img/headers/header03.jpg"
-    ], {duration: 10, fade: 10});
-
-    $("#mapwrapper").gMap({ controls: false,
-        scrollwheel: false,
-        markers: [{     
-            latitude:40.7566,
-            longitude: -73.9863,
-        icon: { image: "assets/img/marker.png",
-            iconsize: [44,44],
-            iconanchor: [12,46],
-            infowindowanchor: [12, 0] } }],
-        icon: { 
-            image: "assets/img/marker.png", 
-            iconsize: [26, 46],
-            iconanchor: [12, 46],
-            infowindowanchor: [12, 0] },
-        latitude:40.7566,
-        longitude: -73.9863,
-        zoom: 14 });
-});
-</script>
-
 </head>
 
 <body id="page-top" class="index">
@@ -109,7 +81,7 @@
 </nav>
 
     <!-- Header -->
-    <header id="headerwrap" class="fullheight">
+    <header id="headerwrap" class="fullheight" style="background-image: url('assets/img/headers/header03.jpg')">
         <div class="container">
             <div class="intro-text">
                 <div class="intro-lead-in wow bounceInDown" data-wow-delay="0.5s">Page Not Found</div>
