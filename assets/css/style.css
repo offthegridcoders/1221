@@ -522,7 +522,7 @@ section h3.section-subheading {
 
 .section-inner-small:after {
 	content: '';
-	border: solid 15px #f6f6f6;
+	border: solid 15px #E8E8E8;
 	position: absolute;
 	left: 50%;
 	bottom: -15px;
