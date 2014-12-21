@@ -2536,3 +2536,7 @@ img.mfp-img {
 		font-size: 16px;
 	}
 }
+
+.faq-list {
+	display: inline-block;
+}
