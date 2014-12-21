@@ -518,6 +518,8 @@ section h3.section-subheading {
 
 .section-single-page-head {
 	padding: 120px 0 70px;
+	position: relative;
+	background-color: #29BB2B;
 }
 
 .section-single-page-head:after {
