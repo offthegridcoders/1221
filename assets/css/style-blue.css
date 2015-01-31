@@ -2564,3 +2564,8 @@ img.mfp-img {
   margin-left: -20px;
   text-transform: capitalize;
 }
+
+#company.col-md-3 {
+  float: none;
+  margin: 0 auto;
+}
